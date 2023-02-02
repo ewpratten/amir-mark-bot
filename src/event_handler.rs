@@ -104,7 +104,7 @@ impl EventHandler for Handler {
                                     true => "increased",
                                     false => "reduced",
                                 },
-                                grade,
+                                grade.abs(),
                                 current_grade
                             )
                         }
