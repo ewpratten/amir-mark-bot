@@ -16,5 +16,5 @@ pub const GUILD_ID: u64 = 1062491599713607840; // Prod guild
 // pub const GUILD_ID: u64 = 1070710208814391337; // Test guild
 
 /// Path to the file containing Amir's current grade
-pub const GRADE_FILE_PATH: &str = "/amir_grade.txt"; // Prod path
+pub const GRADE_FILE_PATH: &str = "/grades/amir_grade.txt"; // Prod path
 // pub const GRADE_FILE_PATH: &str = "./amir_grade.txt"; // Test path

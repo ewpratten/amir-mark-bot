@@ -5,6 +5,6 @@ services:
     image: ewpratten/amir_mark_bot:latest
     restart: unless-stopped
     volumes:
-      - ./grades.txt:/amir_grade.txt
+      - ./grades:/grades
     environment:
       - DISCORD_TOKEN=...
