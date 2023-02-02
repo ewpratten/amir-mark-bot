@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  bot:
+    image: ewpratten/amir_mark_bot:latest
+    restart: unless-stopped
+    volumes:
+      - ./grades.txt:/amir_grade.txt
+    environment:
+      - DISCORD_TOKEN=...
